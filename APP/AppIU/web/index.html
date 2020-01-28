@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/app.index.js" type="text/javascript"></script>
+        <script src="js/bootstrap-filestyle.min.js" type="text/javascript"></script>
+         <script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="input-group">
+            <div class="form-group">
+                <input type="file" name="archivosolicitud" id="archivosolicitud" accept="application/pdf" class="file filestyle">
+            </div>
+        </div>
+
+        <div>
+            <button id="btnGuardar" onclick="saveArchivo();" title="Guardar cambios">Guardar | 
+            </button>
+            <div id="msmerror" class="msmerror"></div>
+        </div><br><br>
+        <div> <label>FUNCIONES</label> </div><br>
+        <div>
+            <button id="btn1" onclick="previewArchivo1();">Primera función de visualizar | 
+            </button>
+        </div><br>
+        <div id="dibujar" class='container' style='height: 350px;'>
+            
+        </div><br>
+    </body>
+</html>

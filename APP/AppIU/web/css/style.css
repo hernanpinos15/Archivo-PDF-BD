@@ -1,0 +1,38 @@
+
+.input-group {
+position: relative;
+    width: 100%;
+    display: table;
+    border-collapse: separate;
+}
+
+.form-group {
+margin-bottom: 1rem;
+}
+
+.file {
+
+}
+
+.filestyle {
+
+}
+
+.form-inline {
+
+}
+
+.btn {
+
+}
+
+.btn-secondary {
+
+}
+
+.container {
+margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
